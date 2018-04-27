@@ -529,9 +529,99 @@
       </section>
 
 
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column" style="width: 30%">
+                <p data-height="500" data-theme-id="0" data-slug-hash="aGBozK" data-default-tab="html,result" data-user="avcoder" data-embed-version="2" data-pen-title="ar" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/avcoder/pen/aGBozK/">ar</a> by A.V. (<a href="https://codepen.io/avcoder">@avcoder</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column" style="width: 70%">
+              <h3>
+                Intro to ar.js and A-frame
+              </h3>
+ <p class="text-intro">Include following scripts:</p>
+ <pre><code><h6>
+&lt;script src="https://aframe.io/releases/0.7.1/aframe.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://rawgit.com/jeromeetienne/ar.js/master/aframe/build/aframe-ar.js"&gt;&lt;/script&gt;
+&lt;script&gt;THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'&lt;/script&gt;
+</h6></code></pre>
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter size-70">
+            <h3>Step 1 - Add a scene after the <code>&lt;body&gt;</code> tag</h3>
+            <pre><code><h4>
+&lt;a-scene embedded artoolkit='sourceType: webcam;'&gt;
 
 
 
+&lt;/a-scene&gt;
+            </h4></code></pre>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter size-70">
+          <h3>Step 2 - Add a marker-camera</h3>
+          <pre><code><h4>
+&lt;a-scene embedded artoolkit='sourceType: webcam;'&gt;
+    
+
+  &lt;a-marker-camera preset='hiro'&gt;&lt;/a-marker-camera&gt;
+&lt;/a-scene&gt;
+          </h4></code></pre>
+            <p><a href="http://tiny.cc/hiro">http://tiny.cc/hiro</a></p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter size-70">
+            <h3>Step 3 - Add a box object</h3>
+            <pre><code><h4>
+&lt;a-scene embedded artoolkit='sourceType: webcam;'&gt;
+  &lt;a-box position='0 0.5 0' &gt;&lt;/a-box&gt;
+
+  &lt;a-marker-camera preset='hiro'&gt;&lt;/a-marker-camera&gt;
+&lt;/a-scene&gt;
+            </h4></code></pre>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-apple">
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap aligncenter size-70">
+              <h3>Step 4 - Show marker to webcam</h3>
+              <p><a href="http://tiny.cc/hiro">http://tiny.cc/hiro</a></p>
+
+<img src="./static/images/hiro.png" alt="hiro image">
+
+            </div>
+            <!-- .end .wrap -->
+          </section>
+
+
+<!-- 
+
+  const box = document.querySelector('a-box');
+box.setAttribute('color', 'green'); 
+box.setAttribute('opacity', 0.5);
+-->
 
 
 
@@ -574,6 +664,17 @@
         </div>
         <!-- .end .wrap -->
       </section>
+
+      <section class="">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <h2>Symbolic Logic</h2>
+          <img style="height: 400px" src="./static/images/logic.gif" alt="Symbolic Logic equivalents">
+          <p>Play Minesweeper for application</p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
 
       <section class="bg-secondary">
         <!--.wrap = container (width: 90%) -->
